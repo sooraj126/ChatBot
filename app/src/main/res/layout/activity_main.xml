@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingStart="32dp"
+    android:paddingEnd="32dp"
+    android:background="#0D0F14">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LLM ChatBot"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:letterSpacing="0.15"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powered by AI"
+        android:textSize="12sp"
+        android:textColor="#44FFFFFF"
+        android:letterSpacing="0.2"
+        android:layout_marginBottom="80dp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:hint="Enter Username"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#44FFFFFF"
+        android:textSize="14sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:inputType="textPersonName"
+        android:background="#1AFFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:text="Continue"
+        android:textColor="#0D0F14"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.08"
+        android:backgroundTint="#ffffff"
+        android:stateListAnimator="@null" />
+
+</LinearLayout>
